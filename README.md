@@ -21,3 +21,8 @@ The outside temperature comes from [Open-Meteo](https://open-meteo.com), which i
 ## Reuse
 
 Fork it, change it, use it in your own teaching. No attribution required.
+
+
+## Version control exercise
+
+This README was edited on GitHub to practise pulling a remote change into the local repository.
