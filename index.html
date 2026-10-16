@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>The Room</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <main class="panel">
+    <p id="room" class="room"></p>
+    <h1 id="temperature" class="temperature">No reading yet</h1>
+    <p id="action" class="action"></p>
+
+    <label class="control" for="sensor">Heat sensor</label>
+    <input id="sensor" class="slider" type="range" min="188" max="375" value="260">
+
+    <label class="check">
+      <input id="window" type="checkbox">
+      Window open
+    </label>
+
+    <p id="average" class="average"></p>
+    <p id="outside" class="outside">Outside right now: not heard yet</p>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
